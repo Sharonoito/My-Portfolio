@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@media (max-width:503px){ 
+
+}
+ body{
+   line-height: 1.5;
+  }  
+
+nav{
+    text-align: right;
+    padding: 2%;
+    margin: 0;
+    
+}
+a{
+    text-decoration: none;
+    color: orange;
+    padding: 2%;
+    text-align:right;  
+    font-size: 18px; 
+    transition: color 0.3s ease; 
+
+}
+a:hover{
+    color:whitesmoke;
+}
+.home-section{
+    display: flex;
+    height: 100vh;
+    min-height: 500px; 
+}
+
+#home{
+    margin:auto 0 auto 40px ;
+   
+}
+.nav-home{
+    background-image: url("My Images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.vertical{
+    border-left: 3px solid whitesmoke;
+            height: 140px;
+            position:absolute;
+            left: 4%;
+           
+}
+.text1{
+    color: whitesmoke;
+    font-size: 30px;
+    
+}
+.text2{
+    color: whitesmoke;
+    font-size: 50px;
+    font-weight: 600;
+    /* margin-left: -5px; */
+    margin-left: 7%;
+
+     clear: both; 
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+.text3{
+    color:whitesmoke;
+    font-size: 40px;
+    margin-left: 7%;
+    margin-bottom: 10%;
+
+    clear: both;
+    overflow: hidden;
+    white-space: nowrap;
+}
+span{
+    color: orange;
+    font-weight: 500px;
+}
+.button{
+    color: cornsilk;
+    background-color: orange;
+    border-radius: 6%;
+    font-size: 25px; 
+    padding: 12px 36px; 
+    margin-left: 7%;
+    border: 2px solid orange;
+    transition: all 0.3s ease;
+
+}
+.button:hover{
+    color: whitesmoke;
+    background: none;
+}
+
+@media (max-width:503px) {
+    .home-section{
+        margin: 0;
+
+    }
+    nav{
+        text-align: right;
+        padding: 2%;
+        margin: 0;
+           
+    } 
+    .text2{
+        font-size: 20px;
+
+    }  
+    .text3{
+        font-size: 18px;
+
+    }
+    a{
+        font-size: 16px;
+    }
+    .button{
+        font-size:20 ;
+        padding: 9px 25px;
+    }
+}
+.about-section{
+    background-color: whitesmoke;
+    padding: 100px 0;
+    /* font-family: ; */
+   
+}
+h2{
+    /* font-family: ; */
+    text-align: center;
+    color: orange;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: -7%;
+  
+}
+#myimage{
+    height: 410px;
+    width: 350px;
+    /* object-fit: cover; */
+}
+.content-right{
+     width: 50%;
+    
+  } 
+   p{
+      text-align: justify;
+      font-size: 20px;
+      line-height: 200%;
+
+  }
+  .about-content{
+      display: flex;
+      justify-content: space-evenly;
+
+  }
+@media (max-width:503px){ 
+    .about-section{
+        background-color: whitesmoke;
+        width: 100%;
+        margin: 0;
+        
+        
+    }
+  
+}
+
