@@ -161,9 +161,97 @@ h2{
         background-color: whitesmoke;
         width: 100%;
         margin: 0;
-        
-        
+        margin-bottom: 10%;   
     }
   
 }
+.projects-section{
+    height: 800px;
+    margin-bottom: 10%;
+    margin-top: 10%; 
+   
+}
+.projects-cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    margin-left: 10%;
+   
+}
+.projects-cards img{
+    height: 290px;
+    width: 100%;
+    text-align: center;
+    
+}
 
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 400px;
+    width: 80%;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .container{
+      text-align: center;
+  }
+  .container p{
+    text-align: center;
+   
+     
+  }
+
+    .contact-section{
+      background-color:black;
+      margin-top: 20%;
+  }
+  .contact-content{
+      text-align: center;
+  }
+  #paragraph{
+      text-align: center;
+      color: whitesmoke;
+  }
+  h4{
+      color: orange;
+  }
+
+  .fa{
+    padding: 20px;  
+    font-size: 50px;  
+    width:30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+
+    }
+    .fa:hover{
+        opacity:0.6;
+     } 
+      .fa-github{
+      /* background:orange;    */
+      color: whitesmoke;
+      font-size: 30px;
+      height: 10px;
+      width: 1%;
+     }    
+     .fa-twitter{
+      /* background:orange;  */
+      color:whitesmoke ;  
+     }
+     .fa-linkedin{
+       /* background:  orange;   */
+       color: whitesmoke;
+     }
+     .contact-content a{
+         font-size: 30px;
+         color:whitesmoke;
+     }
+ 
+ 
+
+ 
+
+ 
