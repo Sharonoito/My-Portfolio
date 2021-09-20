@@ -1,127 +1,180 @@
 <!DOCTYPE html>
+<!-- Created By CodingNepal -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 
-
-   
-<!-- 
-    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
-<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" /> -->
-<script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
 </head>
 <body>
- <div class="nav-home">
-    <header>
-        <nav>
-            <a href="#home">Home</a> 
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a> 
-            <a href="#contact">Contact</a> 
-        </nav>
-    </header>
-    
- 
-<div class="home-section">
-    <div id = "home">      
-        <div class="home-content">
-            <div class="vertical"></div>
-            <!-- <div class="text1">Hello, my name is</div>  -->
-            <div class="text2">Sharon Akoth Oito</div> 
-            <div class="text3">A <span>Software Developer</span></div>
-
-            <a href="#" class="button">RESUME</a>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#projects" class="menu-btn">Projects</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
-    </div> 
- </div>  
-</div>
+    </nav>
 
-<div id = "about">
-<div class="about-section">
-            <h2>About me</h2>
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="vertical"></div>
+                <div class="text-1">Hello,</div>
+                <div class="text-2">I am Sharon Akoth</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+              
+            </div>
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title" id="title2">About me</h2>
             <div class="about-content">
-            <img id="myimage" src="My Images/Sharon.jpg" alt="My image"><img>
+                <div class="column left">
+                    <img src="My Images/headshot.jpg" alt="my image">
+                </div>
+                <div class="column right">
 
-       <div class="content-right">
-        <p>I am a young ambitious lady passionate about Technology.
-        From the first time I wrote "Hello World!"in my first 
-         application,I knew that the world of Software development
-        is where I belong.</p>
-        <p>I am skilled in backend development,frontend development,
-        mobile development,UI/UX design.I enjoy frontend development
-        especially using JavaScript and I have created several Projects
-        on the same</p>    
-        <p>I have good leadership qualities and participated in the annual
-        leadership high school programe and awarded on the same.I am a 
-        good team player and I posses good communication skills,participated
-        in the great debators contest and received an award.</p>
-        </div>  
-            </div> 
-    </div>   
-</div>  
 
-<div class="projects-section">
-    <div id = "projects"> 
-        <h2>Projects</h2>
-    <div class = "projects-cards">  
+                    <div class="text">I'm Sharon Akoth and I'm a <span class="typing-2"></span></div>
+                    <p>I am a young ambitious lady who is passionate about Technology.
+                    My interest in Technology was sparked by the quest to understand 
+                    how big data works. And since then I have never look back.</p>
+                    <p>I am skilled in backend development using Python, frontend development 
+                    using JavaScript,mobile development,UI/UX design.I enjoy frontend development
+                    especially using JavaScript and React.js.
+                    <p>I have good leadership qualities and participated in the annual
+                    leadership high school program and was awarded on the same. I am a 
+                    good team player and I possess good communication skills, participated
+                    in the great debater’s contest, and received an award.</p>
+                    <a href="My files/Sharon's Resume  (1).pdf">Download CV</a>
 
-<div class="card">
-   <img src="My Images/loginsighup (3).JPG" alt="Project"> 
-  <div class="container">
-    <h3><b>JavaScript</b></h3> 
-     <p>link</p> 
-  </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects section start -->
+    <section class="projects" id="projects">
+        <div class="max-width">
+            <h2 class="title">My Projects</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <img class="imgcard" src="My Images/coffee.jpg" alt="pic">
+                        <div class="text">E-ccomerce Website</div>
+                         <p>Created a Coﬀee web app using Vanilla JavaScript that allows users to buy and pay for their coﬀee.</p>
+                         <button class="viewbtn"><p class="view"><a href="https://github.com/sindetisarah/Coﬀee-Shop">View</a></p></button>
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <img class="imgcard" src="My Images/beuty.jpg" alt="pic">
+                        <div class="text">E-ccomerce Website</div>
+                        <p> Used React to create a web app that enabled clients to login,book
+                            appointments and buy products</p>
+                            <button class="viewbtn"><p class="view"><a href="https://faithparlour.netlify.app">View</a></p></button>      
+                    </div>
+                </div> 
+
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <img class="imgcard" src="My Images/studentapp.png", alt="pic" height="50%">
+                        <div class="text">Student Registration App</div>
+                        <p>Created an android app that allows students login,post and get
+                            courses using API’s.</p>
+                        <button class="viewbtn"><p class="view"><a href="https://github.com/Sharonoito/RegistrationApp ">View</a></p></button>      
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <img class="imgcard" src="My Images/school.jpeg" alt="pic">
+                        <div class="text">School Management System</div>
+                        <p>Used Django framework to create a system that allows students,trainers,staﬀ to update and get updates on courses and events</p>
+                        <button class="viewbtn"><p class="view"><a href="https://github.com/Sharonoito/School-System">View</a></p></button>
+                            
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <img class="imgcard" src="My Images/dashboard.jpg" alt="pic">
+                        <div class="text">Blood donor Management System</div>
+                        <p>Working together with my group members on a blood donor management system that aims at
+                            reducing blood shortage.</p>
+                            <button class="viewbtn"><p class="view"><a href="Desk research link">View</a></p></button>     
+                    </div>
+                </div>
+
+               </div>
+            </div>
+        </div>
+    </section>   
+    
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+    
+    <h2 class="title" id="title2">Contact me</h2>
+
+    <p id="paragraph">Thank you for taking time here,I am open to opportunities that will bring my skills to a 
+        respected <br>organisation and which will help me grow in my career.Feel free to reach out to me.
+        </p>
+            
+             <!-- footer section start -->
+    <div class="footer-main-div">
+        <div class="footer-social-icons">
+            <ul>
+                <li><a href="https://twitter.com/SharonOito"target ="blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/sharon-oito-05b79b20a/"target ="blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="oitosharonakoth@gmail.com"target ="blank"><i class="far fa-envelope"></i></i></a></li>
+                <li><a href="https://github.com/Sharonoito"target ="blank"><i class="fab fa-github"></i></a></li>
+
+            </ul>
+
 </div>
+        <div class="footer-menu-one">
+          
+           </div>
 
- <div class="card">
-    <img src="My Images/DATA-SCIENCE-PROJECTS (2).png" alt="Project">  
-  <div class="container">
-     <h3><b>Kotlin</b></h3>  
-     <p>link</p> 
-  </div>
-</div>
- 
-<div class="card">
-    <img src="My Images/project 1.png" alt="Project">  
-  <div class="container">
-     <h3><b>JavaSCript</b></h3>  
-     <p>link</p> 
-  </div>
-</div>
+    </div>
+</section>
 
-<div class="card">
-   <img src="My Images/project.jpg" alt="Project"> 
-  <div class="container">
-     <h3><b>Python</b></h3>  
-     <p>link</p> 
-  </div>
-</div>
+   <div class="copyright">
 
-</div> 
-</div> 
-</div> 
- 
+        <p class="far fa-copyright" >copyright &copy;2020.designed by <span id="footerspan">Sharon</span></p>
+        </div>
 
-
- <footer>
-<div class="contact-section">
-    <div id = "contact">
-        <div class="contact-content"> 
-            <h2>Contact</h2>
-            <h4>Get in touch</h4>
-<p id="paragraph">Thank you for taking time here,I am open to opportunities that will bring my skills to a 
-respected <br>organisation and which will help me grow in my career.Feel free to reach out to me.
-</p>
-
-<a href="https://www.linkedin.com/in/sharon-oito-05b79b20a/" class="fa fa-linkedin"></a>
-<a href="https://github.com/Sharonoito" class="fa fa-github"></a>
-<a href="https://twitter.com/SharonOito" class="fa fa-twitter"></a>
-  </div> 
-  </div>
-  </div>
-  </footer> 
+    
+    <script src="script.js"></script>
+</body>
+</html>
